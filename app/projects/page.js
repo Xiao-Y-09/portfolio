@@ -1,5 +1,5 @@
-import { getAllProjects } from "@/lib/projects";
-import ProjectCard from "@/components/ProjectCard";
+import { getAllProjects } from "../../lib/projects";
+import ProjectCard from "../../components/ProjectCard";
 
 export const metadata = { title: "Projects — Your Name" };
 

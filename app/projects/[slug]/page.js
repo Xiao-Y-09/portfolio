@@ -1,5 +1,15 @@
 import Image from "next/image";
-import { getAllSlugs, getProjectBySlug } from "@/lib/projects";
+import { getAllSlugs, getProjectBySlug } from "../../../lib/projects";
+
+export async function generateMetadata({ params }) {
+  const p = await getProjectBySlug(params.slug);
+  return {
+    title: `${p.title} — Xiao Yang`,
+    description: p.summary || `${p.title} (${p.year})`,
+    openGraph: { images: p.cover ? [p.cover] : [] },
+  };
+}
+
 
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
