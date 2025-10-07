@@ -1,17 +1,23 @@
 ---
-title: "Restaurant Interior Design"
+title: "White Cubic Complex"
 year: 2023
 cover: "/projects/p1.jpg"
-coverAlt: "Restaurant interior hero"
-tags: ["Interior","Rhino","V-Ray"]
-summary: "Fast-casual restaurant interior with efficient circulation and warm materials."
+coverAlt: "Apartment"
+tags: ["Interior","Rhino","V-Ray", "residential"]
+summary: "An mixed-use community for artists"
+images:
+  - "/projects/p1-1.jpg"
+  - "/projects/p1-2.jpg"
+  - "/projects/p1-3.jpg"
+  - "/projects/p1-4.jpg"
+  - "/projects/p1-5.jpg"
 ---
 
 ### Challenge
-Compact space, clear customer flow.
+Peak-hour congestion at cashier and pickup.
 
 ### Approach
-Rhino modeling, material tests, night/day lighting.
+Rhino block studies, lighting tests, material samples.
 
 ### Outcome
-75-seat layout, 12% shorter service path.
+Service path −12%, seating +8%, night lighting improved.

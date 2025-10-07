@@ -1,10 +1,23 @@
 ---
-title: "Movie Search Engine"
-year: 2025
+title: "Reconstruct: Old Cincinnati Library"
+year: 2024
 cover: "/projects/p4.jpg"
-coverAlt: "Movie search UI"
-tags: ["Next.js","OpenSearch","AWS"]
-summary: "Search 5,000+ titles. Serverless API + relevance tuning."
+coverAlt: "Library"
+tags: ["Interior","Rhino","V-Ray", "digital", "rendering"]
+summary: "reconstruct demolished building"
+images:
+  - "/projects/p4-1.jpg"
+  - "/projects/p4-2.jpg"
+  - "/projects/p4-3.jpg"
+  - "/projects/p4-4.jpg"
+  - "/projects/p4-5.jpg"
 ---
 
-Static site for UI, API-backed search prototype.
+### Challenge
+Using Unity and apply this model into VR.
+
+### Approach
+Rhino block studies, lighting tests, material samples.
+
+### Outcome
+Service path −12%, seating +8%, night lighting improved.
