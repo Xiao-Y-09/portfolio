@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm uninstall *)",
+      "Bash(npx tsc *)",
+      "Bash(rm -rf .next out)",
+      "Bash(npx next *)"
+    ]
+  }
+}
